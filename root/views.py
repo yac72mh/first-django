@@ -1,3 +1,11 @@
 from django.shortcuts import render
 
-# Create your views here.
+
+def home(requst):
+    return render(requst,'index.html')
+
+#def abaut(requst):
+#    return render("abaut django")
+
+#def contact(requst):
+#    return render("cantact django")
